@@ -15,7 +15,7 @@ const steps = [
     number: '03',
     title: 'Install and Go',
     description: 'Install your BaseKit modules in minutes. No tools required. Hit the road and start your adventure.',
-    imagePlaceholder: 'model4_image.png',
+    imagePlaceholder: 'model7_image.png',
   },
 ];
 
