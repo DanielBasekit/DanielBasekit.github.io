@@ -11,10 +11,8 @@ export default defineConfig({
     },
   },
   // Base path for GitHub Pages
-  // If deploying to https://<USERNAME>.github.io/<REPO>/
-  // Set base to '/<REPO>/'
-  // If deploying to custom domain, set to '/'
-  base: process.env.VITE_BASE_PATH || '/basekit/',
+  // DanielBasekit.github.io is a user site, deploys to root
+  base: process.env.VITE_BASE_PATH || '/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
